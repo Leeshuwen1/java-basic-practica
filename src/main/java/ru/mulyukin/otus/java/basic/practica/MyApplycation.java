@@ -20,11 +20,11 @@ public class MyApplycation {
         cat2.jump();
         cat2.info();
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Ведлите новое имя кота");
-//        String newName = scanner.next();
-//        cat1.setName(newName);
-//        cat1.info();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ведлите новое имя кота");
+        String newName = scanner.next();
+        cat1.setName(newName);
+        cat1.info();
 
         cat2 = cat1;
         cat1.setColor("Green");
